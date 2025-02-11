@@ -1,0 +1,4 @@
+fn gg()
+{
+println!("gg");
+}

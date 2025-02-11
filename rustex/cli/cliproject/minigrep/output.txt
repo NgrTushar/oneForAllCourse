@@ -1,0 +1,5 @@
+query: to
+filename: poem.txt
+["target/debug/minigrep", "to", "poem.txt"]
+Are you nobody, too?
+How dreary to be somebody!
