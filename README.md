@@ -4,6 +4,8 @@ A comprehensive repository showcasing examples in Rust, C++, Node.js, React, and
 
 **Note:** If some folders or code are missing, they will be added soon. This repository will continually expand with more code and examples, making it useful not just for beginners but also for anyone looking to brush up on concepts or learn something new.
 
+Each code file includes detailed comments explaining the functionality line-by-line using `//` tags. This is a crucial feature of the repository, ensuring that you not only see how the code works but also understand why it works that way. If you comprehend what the code does, you can think more critically and creatively when writing your own code.
+
 ## Repository Structure
 
 ### Rust Examples (`rustex`)
