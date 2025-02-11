@@ -1,0 +1,12 @@
+There are two types of algorithm stable and unstable 
+stable algorithm not only sorts the array in right order but also ensure that if two 
+elements have same value then it also sorts while considering multiple fields.
+stabilty is not important if you are sorting integer array. 
+stability is important when you consider it sorting by one field, two field or three fields
+example stable sort: Bubble sort, Insertion Sort, Merge Sort..
+Unstable sort: Selection Sort ,Quick Sort ,Heap Sort..
+Bubble sort- it only swaps adjacent elements when array i is greater than array i+1 then 
+it swaps if array i is smaller or equal to array i+1 then it does not do anything 
+that means if two same items appear one after the other then it does not going to swap  
+
+Selection Sort- it finds maximum element in the array then it swaps maximum element with the last element in the array so it unstable 

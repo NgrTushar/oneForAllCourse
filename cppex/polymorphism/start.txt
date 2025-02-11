@@ -1,0 +1,27 @@
+POLYMORPHISM
+// declaration;
+
+a person has assigned task to multiple people to get his task done 
+task-
+1. purchase milk - Ram 
+2. purchase veggies  - Shyam
+3. purchase clothes - Sita 
+
+As of now person has to remember every person name and tasks he assigned to them 
+right now which person to call is very task specific 
+
+condition of polymorphism in this example:
+1. existence of a process in many forms 
+2. which form gets executed first should depend on input
+3. all the forms should reside in single unit 
+Conclusion: Not all three conditions are being satisfied in this example
+
+Solution: Do something , so that all forms can reside in a single form 
+--: Overload the information in a single unit
+
+Follow up--:
+
+a person should assign all the task to a single person and then he just needs to remember single person name and then task will get done without having to remember different names for different task-
+1. Bharti- purchase milk,purchase veggies, purchase clothes.
+
+this is the example of polymorphism.

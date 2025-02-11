@@ -1,0 +1,6 @@
+ENACAPSULATION
+
+Defination-: To HIDE the internals of an object.
+Benefit-: Object stays in valid state
+
+Example: TV,Fridge,Mobile,Pen...

@@ -1,0 +1,24 @@
+Inheritance
+-: To Inherit the features/Characteristics/Properties of Base class into Derived class.
+
+Benefits- Code can be reused/Code resuability
+Types of Inheritance-
+1. Single Inheritance- Derived Class which have only one base class
+
+2. Multilevel Inheritance- 
+Derived Class with a base class and that base class is a derived classs of another.
+
+3. Multiple Inheritance- 
+A Derived class with Multilevel base class 
+
+4. Heirarchial Inheritance- 
+Multiple Derived classes With a base class
+
+5. Hybrid
+Combination of Multiple and heirarchial is called hybrid Inheritance
+
+
+Mode of INHERITANCE
+1. public 
+2. private
+3. protected

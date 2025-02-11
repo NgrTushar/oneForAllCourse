@@ -1,0 +1,14 @@
+{
+Member Variables of any class are also known as property of that class
+Member Function of any class are also known as Methods of that class
+}
+
+
+class Bulb{int w;};
+Bulb g; 
+(One this line g object is created of type Bulb in which memory is allocated only for 
+Member variables i.e Property of a class memory is never allocated for a Member Function 
+of that class)
+
+What if the property of a class is of array type? How to Write setter/getter of that class?
+-

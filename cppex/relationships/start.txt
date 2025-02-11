@@ -1,0 +1,48 @@
+Relationship b/w entities
+1. Erasor is made up of Rubber
+Here while Building Eraser class
+if we have already build the rubber class 
+Some properties of class Rubber like ELASTICITY are same as, some properties of Eraser class
+So while building Eraser class we can reuse properties that Rubber class have
+we dont have to rebuild those properties.
+Eraser is elastic. Eraser property is elasticity. Eraser proper
+
+
+2. German Shephard is a day
+3. Box is made up of Rectangles(s)
+4. Pen contains/has ink 
+
+5. Mobile Phone has/contains SDcard
+
+Why is or has??
+
+If there is any relationship then properties can be reused. But this does not clarify why IS and why HAS
+
+Taking example 4. Ink property is Viscosity But Pen property can never be viscous  
+In here Ink is Content and Pen is a container.
+Container Property can be content But Content property can never be the property of 
+Container
+
+
+Taking Example 5. SDcard property is capacity But mobile phone property can never be capacity
+Here, Mobile phone which is a container  property can be SDcard(which is a content) But 
+contents property can never be the property Container.
+
+
+
+
+
+Eraser is elastic. Eraser property is elasticity not Rubber.
+In this example,  Rubber is  Base Class and Eraser is  Derived Class and this is the      example  of Inheritance 
+Here Derived wont get the Base instead Derived will get all what  Base has, 
+Like we write the Eraser class it should not contain Rubber but Elasticity.
+
+Taking example 2. German Shephard will get the properties of dog but wont get the Dog
+Just like this In example 3. Box will get Length breadth from Rectangle but wont get 
+the Rectangle
+I hope this is clear whatever these words are trying to convey.
+In technical Terms, Derived will get All of base but not the Base.
+
+
+BENEFITS??
+If we Identify the relationships,we would be able to reuse the properties and eventually  there will be less programming

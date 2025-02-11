@@ -1,0 +1,15 @@
+classes may have resources like:-> pointer, file handle, socket, thread etc.
+These resources may be defined in the constructor
+Sometimes we need to decide If these resources must be COPIED or MOVED or DESTROYED.
+Eg. On Destruction of an object the resource must be release which is important to avoid  Leaks. :: Deletion of pointer is either explicit or lifetime bound object by smart pointer.
+Similarly, while Copying of an object or moving of an object; need to decide how that     object must be handled.
+
+For such classes we need to implement the Rule Of Five.
+While takng, Ownership  of resources then you should take responsibility to clean up the  resources.
+Must provide ::-> Destructor, Copy Constructor, Copy Constructor Operator, Move Constructor, Move Constructor Operator. (To ensure the proper handling of an object)
+Eg. If a resource is pointer to heap based memory then we  should allocate New memory and then copy the value in a newly allocated memory.
+
+In move assignment we need to move underlying resource from one object to another.
+Rule of 0::->
+compiler will synthesis it automatically neccessary functions.
+

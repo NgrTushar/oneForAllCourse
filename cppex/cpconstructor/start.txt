@@ -1,0 +1,8 @@
+Copy Constructor
+1. creats a copy of an object
+
+2.Copy is createed by copying the values of membeer variable into another objec
+
+3.if a usser does not provide copy constructor then compile synthesis it automatically
+
+
