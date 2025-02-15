@@ -1,0 +1,40 @@
+State -
+it is just an Javascript object  that represents the current state of the
+application, it represents the things which are dynamic in your application 
+(things that change) 
+example the value of the counter in the simple webpage where when you click 
+counter button, its counter value increases by one 
+the state variable will the number not the whole thing( i.e. Counter 5 - 5 
+represents the state here) 
+so the state will be look like -
+{
+    count:1
+}
+example of linkedin- the topbar of the application where the number represents
+the state which will change as soon as state gets updated 
+{
+topbar:{
+home:0,
+myNetwork:"99+",
+jobs:0,
+messaging:0,
+notification:12,
+}
+}
+the way react is written is when you change the jobs counter to 2 then
+it will automatically put a notification to 2, if you change myNetwork to 5
+then react will automcatically will replace the 99+ from 5.
+on button click the counter needs to go up that will happen in state
+but how that happens will defined in components
+
+
+-----------------------------------------------------------------------------
+
+Components-
+How a DOM element should render, given a state 
+it is reusable dynamic 
+the state change triggers a re-render a re-render represents actual DOM
+being manipulate when the state changes 
+only once you need to define your components then all you have to do is 
+update the state react take care of re-rendering your app 
+a Javascript Components does not return HTML but returns xml
